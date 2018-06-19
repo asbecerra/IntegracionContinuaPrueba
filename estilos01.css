@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS  */
+body    {font-family:Arial, Helvetica, sans-serif;}
+a.nodec {text-decoration:none;}
+a:hover {text-decoration:underline;}
+li em   {font-weight:bold}
+h1, em  {text-decoration:underline;}
+ul      {margin-left:50px ; color:red;}
+ul ul   {font-size:.8em; color:green;}
