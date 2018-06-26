@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#menu_sup{
+	display:block;
+	background-color: #2F1707;
+	z-index: 10;
+
+}
+
+#menu_sup ul{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_sup ul:hover{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_sup:hover ul { 
+	display: block;
+}
+
+#menu_sup ul li{
+	display: inline-block;
+}
+
+#menu_sup ul li a{
+	color: white;
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+#menu_sup ul li a:hover{
+	display:block;
+	background-color:#B0693E;
+}
+
+#menu_sup ul li a:focus{
+	display:block;
+	background-color:#D97639;
+}
+
+.item-r_sup{
+	float: right;
+}

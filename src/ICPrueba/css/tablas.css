@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/*ESTILOS PARA TABLA*/  
+#contenedor_tabla{
+	margin: 15px auto;
+	width: 400px
+}
+
+table{
+	background-color: #fff;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+        color: #222;
+}
+tr:hover{
+	background-color: #366474;
+	color: #fff;
+}
+th{
+	background-color: #58A;
+	color: #222;
+}  
+th,td{
+	padding: 10px;
+}
+
+thead{
+	background-color: #58A;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}

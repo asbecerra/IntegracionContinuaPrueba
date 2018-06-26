@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.logo_encabezado{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 110px;
+	z-index: 1; 
+}
+.text_contenido{
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	z-index: 3;
+	font-size: 20pt;
+	font-family: tahoma, geneva, sans-serif;
+        /*color:#FFF;*/
+}
+
+.menu_superior{ 
+	position:relative;
+	top: 100px;
+}
+
+.form_ing_reg{
+	position: relative;
+	top: 100px
+}
+.contenido{
+	position: absolute;
+	top: 200px;
+	left: 20px;
+        /*color:#FFF;*/
+	z-index: 2; 
+}
+
+/*Estilos para el body*/
+body { 
+	/*Fuente del texto del body*/
+	font-family: arial, sans-serif;
+	/*Imagen de fondo*/
+	background-image: url(../img/eCommerce.jpg);
+	/*Referencia de posición de la imagen*/
+	background-position:top left;
+	/*Repetición de imagen en el fondo*/
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-color:#000;
+	background-size:100%;
+        color:#FFF;
+}
