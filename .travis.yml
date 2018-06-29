@@ -1,8 +1,8 @@
 language: java
 jdk:
 - oraclejdk8
-  script: ant build
   install: ant deps
+  script: ant build
 ant test
 jdk:
   - oraclejdk8
