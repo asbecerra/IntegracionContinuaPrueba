@@ -1,16 +1,11 @@
 language: java
 jdk:
 - oraclejdk8
+script: ant build
   install: ant deps
-  script: ant build
-ant test
-jdk:
-  - oraclejdk8
-  script: ant build
-  ./gradlew assemble
-  gradle check
   
-  before_cache:
+ant test
+ before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 cache:
@@ -18,9 +13,15 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
+  ./gradlew assemble
+  gradle check
+  
+ 
+
 deploy:
   provider: pages
   skip-cleanup: true
+  file: HelloWorld.java
   github-token: $_qUfQuKYwJr3ddOe7W2TgQ  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
