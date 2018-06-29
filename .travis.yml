@@ -1,1 +1,11 @@
 language: java
+jdk:
+  - oraclejdk8
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $_qUfQuKYwJr3ddOe7W2TgQ  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
